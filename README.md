@@ -1,39 +1,41 @@
-Proje Hakkında
-Bu proje, Python ve Unity teknolojilerinin gücünü birleştirerek oluşturulmuştur.
-Amaç; Unity ile geliştirilen bir uygulama aracılığıyla kullanıcıdan alınan verileri, Python ile eğitilmiş sinir ağı modellerine gönderip, elde edilen çıktıyı kullanıcıya sunmaktır.
+About the Project
+This project is built by combining the power of Python and Unity technologies.
+The main goal is to collect input from the user via a Unity-based application, send this data to neural network models trained with Python, and display the model's output back to the user through the Unity interface.
 
-🚀 Unity (Uygulama Arayüzü)
-Unity tarafı, kullanıcı etkileşimini yöneten arayüzü sağlar.
-Kullanıcıdan veri girişi alınır ve bu veriler Python tarafından oluşturulan makine öğrenmesi modellerine gönderilir.
-Modelin verdiği sonuç, Unity arayüzü üzerinden kullanıcıya sunulur.
+🚀 Unity (Application Interface)
+The Unity side handles the user interaction and interface.
+It collects input from the user and sends it to the machine learning models developed in Python.
+The model’s prediction is then displayed to the user through the Unity interface.
 
-🧠 Python (Model Eğitimi ve Tahmin)
-Projede üç temel Python betiği yer almaktadır:
+🧠 Python (Model Training & Prediction)
+There are three main Python scripts used in this project:
 
 📘 GradeAndSectionPrediction.ipynb
-Bu Jupyter defteri, modelleme öncesi veri hazırlık ve analiz sürecini kapsamaktadır:
+This Jupyter notebook covers the data preparation and analysis process before model training:
 
-Veri Ön İşleme (Preprocessing)
+Data Preprocessing
 
-Keşifsel Veri Analizi (EDA)
+Exploratory Data Analysis (EDA)
 
-Regresyon Modelleri ve R² Karşılaştırması
+Regression Models and R² Comparison
 
-(Yalnızca sunum amacıyla:) İkili Sınıflandırma
+(For presentation purposes only:) Binary Classification
 
-F1 Score, Precision, Recall, Accuracy gibi metriklerin karşılaştırması
+F1 Score, Precision, Recall, Accuracy metrics comparison
 
-Confusion Matrix ve ROC Eğrisi görselleştirmeleri
+Confusion Matrix and ROC Curve visualizations
 
-Açıklanabilir Yapay Zeka (XAI) - SHAP
+Explainable AI (XAI) - SHAP
 
-Not: Bu dosyada yapılan sınıflandırma çalışmaları, sadece derste sunum yapmak amacıyla eklenmiştir. Projenin ana odak noktası regresyon modelleridir.
+Note: The classification tasks in this notebook were included solely for course presentation purposes. The main focus of the project is on regression models.
 
 📘 GanoModelCreator.py
-Bu script, veri setindeki her bir bölüm (toplam 3 bölüm) için GANO (Genel Ağırlıklı Not Ortalaması) tahminleyen regresyon modelleri oluşturur.
-Not: Her ne kadar bölüm sayısı sınırlı olsa da, temel modelleme süreci açısından yeterlidir.
+This script creates regression models that predict GPA (General Weighted Average) for each of the three departments in the dataset.
+
+Note: Although the number of departments is limited, it is sufficient for foundational modeling.
 
 📘 LessonsModelCreator.py
-Bu dosyada, kullanıcının seçtiği bölüme ait derslerin puanlarını tahmin eden regresyon modelleri oluşturulmuştur.
-Not: Her bölüm için 10 farklı ders bulunmaktadır (örnekleme amaçlı sınırlı tutulmuştur).
+This script builds models that predict the scores of courses for the department selected by the user.
+
+Note: Each department includes only 10 courses in the dataset (kept limited for demonstration purposes).
 
