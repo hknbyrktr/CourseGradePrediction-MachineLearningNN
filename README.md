@@ -10,7 +10,7 @@ The model’s prediction is then displayed to the user through the Unity interfa
 ## 🧠 Python (Model Training & Prediction)
 There are three main Python scripts used in this project:
 
-## 📘 GradeAndSectionPrediction.ipynb
+### 📘 GradeAndSectionPrediction.ipynb
 This Jupyter notebook covers the data preparation and analysis process before model training:
 
 Data Preprocessing
@@ -29,12 +29,12 @@ Explainable AI (XAI) - SHAP
 
 Note: The classification tasks in this notebook were included solely for course presentation purposes. The main focus of the project is on regression models.
 
-## 📘 GanoModelCreator.py
+### 📘 GanoModelCreator.py
 This script creates regression models that predict GPA (General Weighted Average) for each of the three departments in the dataset.
 
 Note: Although the number of departments is limited, it is sufficient for foundational modeling.
 
-## 📘 LessonsModelCreator.py
+### 📘 LessonsModelCreator.py
 This script builds models that predict the scores of courses for the department selected by the user.
 
 Note: Each department includes only 10 courses in the dataset (kept limited for demonstration purposes).
