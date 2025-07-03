@@ -1,0 +1,88 @@
+AnneMeslek - 
+1- Ev Hanımı
+2- Avukat
+3- Gazeteci
+4- Mühendis
+5- Diğer
+
+BabaMeslek -
+1- İş Adamı
+2- Avukat
+3- Gazeteci
+4- Mühendis
+5- Diğer
+
+SevilenDers_1 / SevilenDers_2 - Lise Dersleri
+   "TDveEdebiyat" : 1,
+    "Matematik": 2,
+    "Fizik": 3,
+    "Kimya": 4,
+    "Biyoloji": 5,
+    "Tarih": 6,
+    "Cografya": 7,
+    "DinKveAhlakB": 8,
+    "BedenEgitimi": 9,
+    "Resim": 10,
+    "Muzik": 11,
+    "Ingilizce" : 12  
+
+Özel Ders -
+1- Aldım
+0- Almadım
+
+Ders Çalışma - Haftalık (min: 0 - Max: 100)
+
+Kitap Okuma - Yıllık (min: 0 - Max: 50)
+
+Etkinlik_1  - Öğrencinin ders dışında yaptığı işler, etkinlikler.
+1- Spor yapmak
+2- Zeka oyunları oynamak (Matematik)
+3- Kitap okumak 
+4- Müzik ile uğraşmak (Gitar çalmak, Piyano çalmak vb.)
+5- Diğer
+
+
+{'BM': 1, 'H': 2, 'G': 3}
+
+
+Bilgisayar Mühendisliği Dersleri - BM
+BM_1 - Bilgisayar Mühendisliğine Giriş
+BM_2 - Programlama Tekniklerine Giriş
+BM_3 - Yapısal Programlama
+BM_4 - Elektirik Devreleri
+BM_5 - Diferansiyel Denklemler
+BM_6 - Nesne Yönelimli Programlama
+BM_7 - Mantık Devreleri
+BM_8 - Mikroişlemciler
+BM_9 - Web Teknolojileri
+BM_10 - Makine Öğrenmesi
+BM_GANO - Yukarıda verilen 10 dersin Ortalaması
+
+
+Hukuk Dersleri - H 
+H_1 -  Anayasa Hukuku
+H_2 -  Borçlar Hukuku Genel Hükümler
+H_3 -  Türk Hukuk Tarihi
+H_4 -  Eşya Hukuku
+H_5 -  Miras Hukuku
+H_6 -  Milletlerarası Özel Hukuk
+H_7 -  Tüketici Hukuku
+H_8 -  İdare Hukuku
+H_9 -  İktisada Giriş
+H_10 - İnsan Hakları Hukuku
+H_GANO - Yukarıda verilen 10 dersin Ortalaması 
+
+
+
+Gazetecilik Dersleri - G
+G_1 - Temel Fotoğrafçılık
+G_2 - Temel Gazetecilik
+G_3 - Sosyoloji
+G_4 - Basın Fotoğrafçılığı Uygulamaları
+G_5 - Görsel İşitsel Haberciliğe Giriş
+G_6 - Medya Ahlakı ve Hukuku
+G_7 - Türk Basın Tarihi
+G_8 - Eleştirel Medya Kuramları
+G_9 - TV Haberciliği
+G_10 - İnternet Haberciliği Uygulamaları
+G_GANO - Yukarıda verilen 10 dersin Ortalaması 
